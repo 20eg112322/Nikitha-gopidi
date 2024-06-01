@@ -1,1 +1,1 @@
-Assignments
+Training Assignments
