@@ -11,7 +11,7 @@ public class JdbcUpdate {
 	public static void main(String[] args) throws SQLException, ClassNotFoundException {
 		try{
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/techm?useSSL=false","root", "Sravan@18");
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/techm?useSSL=false","root", "Nikki@07");
 			Statement st = con.createStatement();
 			
 			int rSet = st.executeUpdate("update customers set balance = 80000 where customerId=2");
