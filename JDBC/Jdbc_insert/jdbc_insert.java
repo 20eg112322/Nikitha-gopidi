@@ -15,10 +15,10 @@ public class JdbcInsert {
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            conn = DriverManager.getConnection(url, "root", "Sravan@18");
+            conn = DriverManager.getConnection(url, "root", "Nikki@07");
             stmt = conn.createStatement();
             int result = stmt.executeUpdate(
-                "INSERT INTO customers (customerId, customername, balance) VALUES (4, 'murali', 30000)");
+                "INSERT INTO customers (customerId, customername, balance) VALUES (3, 'Akshay', 5000)");
 
             if (result > 0)
                 System.out.println("Successfully inserted");
