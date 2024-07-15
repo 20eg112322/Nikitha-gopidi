@@ -1,5 +1,4 @@
 JSP Full Stack:
-Description
 Problem Description
 JSP Pages
 index.jsp:
